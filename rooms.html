@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="static/css/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="static/css/jquery/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="static/css/rooms.css">
+    <script src="static/js/jquery/jquery.js" async></script>
+    <script src="static/js/jquery/jquery-ui.js" async></script>
+    <script>
+      $( function() {
+        $( "#datepicker1" ).datepicker();
+        $( "#datepicker2" ).datepicker();
+      });
+      </script>
+    <title>Rooms</title>
+</head>
+<body>
+ 
+<!-- Navbar -->
+<nav class="sticky-top">
+  <label class="nav_headline">Luxurious Hotel & Apartments Malacca</label>
+
+  <ul>
+    <li><a href="#"><i class='fa fa-map-marker me-1 custom_fa'></i> <span class="nav_item">Location</span></a></li>
+    <li><a href="#"><i class='fa fa-phone me-1 custom_fa'></i> <span class="nav_item">+9714 336 6000</span></a></li>
+    <li><a class="me-4" href="#">User</a></li>
+  </ul>
+</nav>
+<!-- Navbar -->
+
+<!-- Date -->
+<div class="ps-4 pb-2" id="date">
+  <div class="row custom_row">
+    <div class="col-12 col-lg-4 col-xl-3">
+      Check In <input class="ps-2 py-1 ms-1" type="text" id="datepicker1">
+    </div>
+    <div class="col-12 col-lg-5 col-xl-4">
+      Check Out <input class="ps-2 py-1 ms-1" type="text" id="datepicker2">
+    </div>
+  </div>
+</div>
+<!-- Date -->
+
+<!-- Main Section  -->
+<div class="container-fluid main_section">
+  <div class="row">
+    <div class="col-md-8">
+      <h3 class="fw-bold text-center">Choose your room</h3>
+
+      <div class="number_and_filter">
+        <div class="number_rooms">10 rooms for your search</div>
+        <div class="filter">
+          Filter: 
+          <input class="ms-3 me-1 filter-checkbox" id="cancellation" data-filter="category" value="" type="checkbox" /> 
+          <label for="cancellation">Easy cancellation</label>
+          <input class="ms-3 me-1 filter-checkbox" id="breakfast" data-filter="category" value="" type="checkbox" /> 
+          <label for="breakfast">Breakfast included</label>
+        </div>
+      </div>
+
+      <div class="room">
+        <div class="row custom_row">
+          <div class="col-md-8">
+            <img src="static/img/room2.jpg" alt="">
+          </div>
+          <div class="col-md-4 card__body">
+            <h5>Superior Twin</h5>
+            <div class="card__text">
+              <div class="float-end breakfast">Breakfast included</div>
+              <del class="discount_price">$200</del>
+              <p class="price">$180</p>
+            </div>
+            <a class="btn custom_button" href="#">Select</a>
+          </div>
+        </div>
+      </div>
+      <div class="room">
+        <div class="row custom_row">
+          <div class="col-md-8">
+            <img src="static/img/room3.jpg" alt="">
+          </div>
+          <div class="col-md-4 card__body">
+            <h5>Superior King</h5>
+            <div class="card__text">
+              <div class="float-end breakfast">Breakfast included</div>
+              <del class="discount_price">$200</del>
+              <p class="price">$180</p>
+            </div>
+            <a class="btn custom_button" href="#">Select</a>
+          </div>
+        </div>
+      </div>
+      <div class="room">
+        <div class="row custom_row">
+          <div class="col-md-8">
+            <img src="static/img/room1.jpg" alt="">
+          </div>
+          <div class="col-md-4 card__body">
+            <h5>Superior King</h5>
+            <div class="card__text">
+              <div class="float-end breakfast">Breakfast included</div>
+              <del class="discount_price">$200</del>
+              <p class="price">$180</p>
+            </div>
+            <a class="btn custom_button" href="#">Select</a>
+          </div>
+        </div>
+      </div>
+      <div class="room">
+        <div class="row custom_row">
+          <div class="col-md-8">
+            <img src="static/img/room1.jpg" alt="">
+          </div>
+          <div class="col-md-4 card__body">
+            <h5>Superior King</h5>
+            <div class="card__text">
+              <div class="float-end breakfast">Breakfast included</div>
+              <del class="discount_price">$200</del>
+              <p class="price">$180</p>
+            </div>
+            <a class="btn custom_button" href="#">Select</a>
+          </div>
+        </div>
+      </div>
+      <div class="room">
+        <div class="row custom_row">
+          <div class="col-md-8">
+            <img src="static/img/room1.jpg" alt="">
+          </div>
+          <div class="col-md-4 card__body">
+            <h5>Superior King</h5>
+            <div class="card__text">
+              <div class="float-end breakfast">Breakfast included</div>
+              <del class="discount_price">$200</del>
+              <p class="price">$180</p>
+            </div>
+            <a class="btn custom_button" href="#">Select</a>
+          </div>
+        </div>
+      </div>
+      <div class="room">
+        <div class="row custom_row">
+          <div class="col-md-8">
+            <img src="static/img/room1.jpg" alt="">
+          </div>
+          <div class="col-md-4 card__body">
+            <h5>Superior King</h5>
+            <div class="card__text">
+              <div class="float-end breakfast">Breakfast included</div>
+              <del class="discount_price">$200</del>
+              <p class="price">$180</p>
+            </div>
+            <a class="btn custom_button" href="#">Select</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="col-md-4">
+        <div id="cart">
+          <h5>Your Stay</h5>
+          <div class="cart_day_night">
+            <p class="day">January 29, 2022 <i class="fa fa-long-arrow-right mx-1"></i> January 30, 2022 </p>
+            <p class="night">1 night</p>
+          </div>
+
+          <a class="btn unselected_button" href="#">Validate</a>
+          <p class="select_to_continue">Select a room to continue</p>
+
+          <p class="selected_room">ROOM <span class="float-end">183,77 USD</span></p>
+          <p class="selected_total_fee">TOTAL <span class="float-end">183,77 USD</span></p>
+          <a class="btn selected_button" href="#">Validate</a>
+
+        </div>
+    </div>
+  </div>
+</div>
+<!-- Main Section  -->
+
+<!-- Footer  -->
+<footer class="py-5" id="footer">
+    <div class="row">
+        <div class="col-md-2">
+            <h4 class="footer_title">Visit</h4>
+            <ul>
+                <li><a href="#" target="_blank">Find a hotel</a></li>
+                <li><a href="#" target="_blank">Find a meeting room</a></li>
+                <li><a href="#" target="_blank">Find a special offer</a></li>
+                <li><a href="#" target="_blank">Find a restaurant</a></li>
+            </ul>
+        </div>
+        <div class="col-md-2">
+            <h4 class="footer_title">About</h4>
+            <ul>
+                <li><a href="#" target="_blank">About us</a></li>
+                <li><a href="#" target="_blank">Development</a></li>
+                <li><a href="#" target="_blank">Best Rate Guarantee</a></li>
+            </ul>
+        </div>
+        <div class="col-md-2">
+            <h4 class="footer_title">Destinations</h4>
+            <ul>
+                <li><a href="#" target="_blank">Europe</a></li>
+                <li><a href="#" target="_blank">Middle East</a></li>
+                <li><a href="#" target="_blank">Asia</a></li>
+                <li><a href="#" target="_blank">Affrica</a></li>
+            </ul>
+        </div>
+        <div class="col-md-2">
+            <h4 class="footer_title">Professionals</h4>
+            <ul>
+                <li><a href="#" target="_blank">Press</a></li>
+                <li><a href="#" target="_blank">Careers</a></li>
+                <li><a href="#" target="_blank">Travel professionals</a></li>
+            </ul>
+        </div>
+        <div class="col-md-2">
+            <h4 class="footer_title">Service</h4>
+            <ul>
+                <li><a href="#" target="_blank">Privacy policy</a></li>
+                <li><a href="#" target="_blank">Cookies Preferences</a></li>
+                <li><a href="#" target="_blank">Terms and Conditions </a></li>
+                <li><a href="#" target="_blank">Booking Conditions</a></li>
+                <li><a href="#" target="_blank">Contact</a></li>
+            </ul>
+        </div>
+        <div class="col-md-2">
+            <h4 class="footer_title">Follow us</h4>
+            <ul>
+                <li><a href="#" target="_blank"><i class="fa fa-facebook"></i> Facebook</a></li>
+                <li><a href="#" target="_blank"><i class="fa fa-twitter"></i> Twitter</a></li>
+                <li><a href="#" target="_blank"><i class="fa fa-instagram"></i> Instagram</a></li>
+                <li><a href="#" target="_blank"><i class="fa fa-youtube"></i> Youtube</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+<!-- Footer  -->
+
+<script src="static/js/bootstrap/bootstrap.js"></script>
+</body>
+</html>
+
+
+
