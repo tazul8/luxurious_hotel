@@ -1,1 +1,1 @@
-# luxurious_hotel
+# Luxurious Hotel
